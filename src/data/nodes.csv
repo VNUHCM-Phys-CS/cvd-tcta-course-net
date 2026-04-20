@@ -8,73 +8,89 @@
 7,Nhập môn kỹ thuật,1,1,Đại cương,1
 8,Anh văn 1,1,2,Đại cương,1
 9,Thể dục 1,1,2,Đại cương,1
-10,Giáo dục quốc phòng – An ninh,1,2,Đại cương,1
-11,Hóa đại cương 1,1,1,Đại cương,2
-12,Vi tích phân 2B,1,1,Đại cương,2
-13,Đại số tuyến tính,1,1,Đại cương,2
-14,Vật lý đại cương 2 (Điện từ - Quang),1,1,Đại cương,2
-15,Thực hành Vật lý đại cương,1,1,Đại cương,2
-16,Anh văn 2,1,2,Đại cương,2
-17,Thể dục 2,1,2,Đại cương,2
-18,Tin học cơ sở,1,2,Đại cương,2
+10,Hóa đại cương 1,1,1,Đại cương,2
+11,Vi tích phân 2B,1,1,Đại cương,2
+12,Đại số tuyến tính,1,1,Đại cương,2
+13,Vật lý đại cương 2 (Điện từ - Quang),1,1,Đại cương,2
+14,Thực hành Vật lý đại cương,1,1,Đại cương,2
+15,Anh văn 2,1,2,Đại cương,2
+16,Thể dục 2,1,2,Đại cương,2
+17,Tin học cơ sở,1,2,Đại cương,2
+18,Giáo dục quốc phòng – An ninh,2,2,Đại cương,1
 19,Chủ nghĩa xã hội khoa học,2,1,Đại cương,1
 20,Lịch sử Đảng Cộng sản Việt Nam,2,1,Đại cương,1
-21,Tư tưởng Hồ Chí Minh,2,1,Đại cương,1
+21,Vật lý chất rắn,2,1,Cơ sở ngành,1
 22,Xác suất thống kê,2,1,Đại cương,1
 23,Vật lý hiện đại (Lượng tử - Nguyên tử - Hạt nhân),2,1,Đại cương,1
 24,Kinh tế đại cương,2,0,Đại cương,1
 25,Tâm lý đại cương ,2,0,Đại cương,1
 26,Phương pháp luận sáng tạo ,2,0,Đại cương,1
-27,Khoa học trái đất ,2,0,Đại cương,1
-28,Môi trường đại cương ,2,0,Đại cương,1
-29,Kỹ thuật lập trình,2,1,Cơ sở ngành,1
-30,Anh văn 3,2,2,Đại cương,1
-31,Điện tử cơ bản,2,1,Cơ sở ngành,2
-32,Cơ lượng tử 1,2,1,Cơ sở ngành,2
-33,Vật lý chất rắn,2,1,Cơ sở ngành,2
-34,Lập trình hướng đối tượng,2,1,Cơ sở ngành,2
-35,Cơ sở linh kiện bán dẫn,2,1,Cơ sở ngành,2
-36,Lập trình python,2,1,Cơ sở ngành,2
-37,Anh văn 4,2,2,Đại cương,2
-38,Mô hình và mô phỏng,3,1,Cơ sở ngành,1
-39,Hệ thống số,3,1,Cơ sở ngành,1
-40,Xử lý tín hiệu số,3,1,Cơ sở ngành,1
-41,Cấu trúc dữ liệu và giải thuật,3,1,Cơ sở ngành,1
-42,Cảm biến và Kỹ thuật đo lường,3,1,Cơ sở ngành,1
-43,Phương pháp tính,3,1,Cơ sở ngành,1
-44,Cơ sở dữ liệu,3,1,Chuyên ngành,2
-45,Máy học,3,1,Chuyên ngành,2
-46,Phân tích mạch,3,1,Chuyên ngành,2
-47,Công nghệ chế tạo màng mỏng,3,1,Chuyên ngành,2
-48,Kỹ thuật phân tích vật liệu,3,1,Chuyên ngành,2
-49,Vi điều khiển,3,1,Chuyên ngành,2
-50,Tính chất quang vật rắn ,4,0,Chuyên ngành,1
-51,Kỹ thuật nuôi tinh thể ,4,0,Chuyên ngành,1
-52,Tính chất cơ nhiệt vật rắn ,4,0,Chuyên ngành,1
-53,Lập trình Java ,4,0,Chuyên ngành,1
-54,Mạng máy tính ,4,0,Chuyên ngành,1
-55,Thiết kế vi mạch  ,4,0,Chuyên ngành,1
-56,Thực tập thực tế ,4,0,Chuyên ngành,1
-57,Lập trình trên thiết bị di động ,4,0,Chuyên ngành,1
-58,Hệ thống nhúng và IoT ,4,0,Chuyên ngành,1
-59,Lập trình PLC ,4,0,Chuyên ngành,1
-60,Xử lý ảnh số ,4,0,Chuyên ngành,1
-61,Phương pháp nghiên cứu khoa học ,4,0,Chuyên ngành,1
-62,Đổi mới sáng tạo ,4,0,Chuyên ngành,1
-63,Vật lý tinh thể ,4,0,Chuyên ngành,1
-64,Công nghệ chế tạo cảm biến SERS ,4,0,Chuyên ngành,1
-65,Quang điện tử bán dẫn ,4,0,Chuyên ngành,1
-66,Mô phỏng quang và vật lý plasma ,4,0,Chuyên ngành,1
-67,Vật lý bán dẫn ,4,0,Chuyên ngành,1
-68,Kỹ thuật siêu âm ,4,0,Chuyên ngành,1
-69,Khoa học vật liệu đại cương ,4,0,Chuyên ngành,1
-70,Công nghệ chế tạo vật liệu ,4,0,Chuyên ngành,1
-71,Công nghệ robot và ứng dụng ,4,0,Chuyên ngành,1
-72,Trí tuệ nhân tạo ,4,0,Chuyên ngành,1
-73,Điện tử y sinh ,4,0,Chuyên ngành,1
-74,Khai thác dữ liệu lớn ,4,0,Chuyên ngành,1
-75,Lập trình web ,4,0,Chuyên ngành,1
-76,Logic mờ và mạng nơron ,4,0,Chuyên ngành,1
-77,Khóa luận tốt nghiệp,4,0,Tốt nghiệp,2
-78,Đồ án tốt nghiệp,4,0,Tốt nghiệp,2
-79,Seminar chuyên ngành,4,0,Tốt nghiệp,2
+27,Giới thiệu về biến đổi khí hậu và phát triển bền vững,2,0,Đại cương,1
+28,Kỹ thuật lập trình,2,1,Cơ sở ngành,1
+29,Anh văn 3,2,2,Đại cương,1
+30,Điện tử cơ bản,2,1,Cơ sở ngành,2
+31,Cơ lượng tử 1,2,1,Cơ sở ngành,2
+32,Lập trình hướng đối tượng,2,1,Cơ sở ngành,2
+33,Cơ sở linh kiện bán dẫn,2,1,Cơ sở ngành,2
+34,Lập trình python,2,1,Cơ sở ngành,2
+35,Tư tưởng Hồ Chí Minh,2,1,Đại cương,2
+36,Khoa học trái đất ,2,0,Đại cương,2
+37,Môi trường đại cương ,2,0,Đại cương,2
+38,Anh văn 4,2,2,Đại cương,2
+39,Phân tích mạch,3,1,Chuyên ngành ,1
+40,Cảm biến và Kỹ thuật đo lường,3,1,Chuyên ngành ,1
+41,máy học và ứng dụng,3,1,Chuyên ngành ,1
+42,Công nghệ chế tạo màng mỏng,3,1,Chuyên ngành Kỹ thuật VLLK,1
+43,Kỹ thuật phân tích vật liệu,3,1,Chuyên ngành Kỹ thuật VLLK,1
+44,Cơ sở công nghệ bán dẫn,3,1,Chuyên ngành Kỹ thuật VLLK,1
+45,Hệ thống số,3,1,"Chuyên ngành KTĐT, MT và RBTM",1
+46,Mô hình và mô phỏng,3,1,"Chuyên ngành KTĐT, MT và RBTM",1
+47,Xử lý tín hiệu số,3,1,"Chuyên ngành KTĐT, MT và RBTM",1
+48,Phương pháp nghiên cứu khoa học ,3,0,Chuyên ngành,2
+49,Trí tuệ nhân tạo ,3,0,Chuyên ngành,2
+50,Từ học - linh kiện spintronic,3,1,Chuyên ngành Kỹ thuật VLLK,2
+51,Công nghệ chế tạo cảm biến SERS ,3,0,Chuyên ngành Kỹ thuật VLLK,2
+52,Kỹ thuật vi chế tạo,3,0,Chuyên ngành Kỹ thuật VLLK,2
+53,Tính chất cơ nhiệt vật rắn ,3,0,Chuyên ngành Kỹ thuật VLLK,2
+54,Vật lý bán dẫn ,3,0,Chuyên ngành Kỹ thuật VLLK,2
+55,Khoa học vật liệu đại cương ,3,0,Chuyên ngành Kỹ thuật VLLK,2
+56,Quang điện tử bán dẫn ,3,0,Chuyên ngành Kỹ thuật VLLK,2
+57,Cấu trúc dữ liệu và giải thuật,3,1,"Chuyên ngành KTĐT, MT và RBTM",2
+58,Vi điều khiển,3,1,"Chuyên ngành KTĐT, MT và RBTM",2
+59,Thiết kế vi mạch  ,3,1,"Chuyên ngành KTĐT, MT và RBTM",2
+60,Phương pháp tính,3,0,"Chuyên ngành KTĐT, MT và RBTM",2
+61,Xử lý ảnh số ,3,0,"Chuyên ngành KTĐT, MT và RBTM",2
+62,Kỹ thuật thuật thiết kế mạch in PCB,3,0,"Chuyên ngành KTĐT, MT và RBTM",2
+63,Thiết kế hệ thống cơ điện tử,3,0,"Chuyên ngành KTĐT, MT và RBTM",2
+64,Thiết kế vi mạch tương tự,3,0,"Chuyên ngành KTĐT, MT và RBTM",2
+65,Hệ điều hành ROS,3,0,"Chuyên ngành KTĐT, MT và RBTM",2
+66,Thực tập thực tế ,4,1,Chuyên ngành ,1
+67,Khai thác dữ liệu lớn ,4,0,Chuyên ngành ,1
+68,Vẽ kỹ thuật,4,0,Chuyên ngành ,1
+69,Đổi mới sáng tạo ,4,0,Chuyên ngành ,1
+70,Kỹ thuật siêu âm ,4,0,Chuyên ngành Kỹ thuật VLLK,1
+71,Công nghệ chế tạo vật liệu ,4,0,Chuyên ngành Kỹ thuật VLLK,1
+72,Vật lý tinh thể ,4,0,Chuyên ngành Kỹ thuật VLLK,1
+73,Mô phỏng quang và vật lý plasma ,4,0,Chuyên ngành Kỹ thuật VLLK,1
+74,Kỹ thuật nuôi tinh thể ,4,0,Chuyên ngành Kỹ thuật VLLK,1
+75,Tính chất quang vật rắn ,4,0,Chuyên ngành Kỹ thuật VLLK,1
+76,Công nghệ đóng gói,4,0,Chuyên ngành Kỹ thuật VLLK,1
+77,Công nghệ chiếu sáng và ứng dụng,4,0,Chuyên ngành Kỹ thuật VLLK,1
+78,Cơ sở dữ liệu,4,0,"Chuyên ngành KTĐT, MT và RBTM",1
+79,Lập trình Java ,4,0,"Chuyên ngành KTĐT, MT và RBTM",1
+80,Lập trình trên thiết bị di động ,4,0,"Chuyên ngành KTĐT, MT và RBTM",1
+81,Lập trình web ,4,0,"Chuyên ngành KTĐT, MT và RBTM",1
+82,Logic mờ và mạng nơron ,4,0,"Chuyên ngành KTĐT, MT và RBTM",1
+83,Mạng máy tính ,4,0,"Chuyên ngành KTĐT, MT và RBTM",1
+84,Lập trình PLC ,4,0,"Chuyên ngành KTĐT, MT và RBTM",1
+85,Điện tử y sinh ,4,0,"Chuyên ngành KTĐT, MT và RBTM",1
+86,Công nghệ robot và ứng dụng ,4,0,"Chuyên ngành KTĐT, MT và RBTM",1
+87,Thiết kế hệ thống nhúng,4,0,"Chuyên ngành KTĐT, MT và RBTM",1
+88,Kỹ thuật điện,4,0,"Chuyên ngành KTĐT, MT và RBTM",1
+89,Thiết kế để kiểm tra vi mạch,4,0,"Chuyên ngành KTĐT, MT và RBTM",1
+90,Lập trình shell và quản trị Linux cơ bản,4,0,"Chuyên ngành KTĐT, MT và RBTM",1
+91,Thiết kế vật lý vi mạch bán dẫn,4,0,"Chuyên ngành KTĐT, MT và RBTM",1
+92,Điều khiển học,4,0,"Chuyên ngành KTĐT, MT và RBTM",1
+93,Phát triển ứng dụng IoT,4,0,"Chuyên ngành KTĐT, MT và RBTM",1
+94,Thiết kế hệ thống trên chip (SoC),4,0,"Chuyên ngành KTĐT, MT và RBTM",1
+95,Khóa luận tốt nghiệp,4,0,Tốt nghiệp ,2
