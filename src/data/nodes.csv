@@ -14,95 +14,95 @@
 13,Vật lý hiện đại (Lượng tử - Nguyên tử - Hạt nhân),1,1,Đại cương,3
 14,Thể dục 2,1,2,Đại cương,3
 15,Giáo dục quốc phòng – An ninh,1,2,Đại cương,3
-16,Vật lý chất rắn,2,1,Cơ sở ngành,4
-17,Xác suất thống kê,2,1,Đại cương,4
-18,Triết học Mác - Lênin,2,1,Đại cương,4
-19,Cơ lượng tử 1,2,1,Cơ sở ngành,4
-20,Khoa học trái đất ,2,0,Đại cương,4
-21,Môi trường đại cương ,2,0,Đại cương,4
-22,Giới thiệu về biến đổi khí hậu và phát triển bền vững,2,0,Đại cương,4
-23,Kinh tế chính trị Mác - Lênin,2,1,Đại cương,5
-24,Kinh tế đại cương,2,0,Đại cương,5
-25,Tâm lý đại cương ,2,0,Đại cương,5
-26,Phương pháp luận sáng tạo,2,0,Đại cương,5
-27,Lập trình hướng đối tượng,2,1,Cơ sở ngành,5
-28,Cơ sở linh kiện bán dẫn,2,1,Cơ sở ngành,5
-29,Lập trình python,2,1,Cơ sở ngành,5
-30,Phân tích mạch,2,1,Cơ sở ngành,6
-31,Cảm biến và kỹ thuật đo lường,2,1,Cơ sở ngành,6
-32,Máy học và ứng dụng,2,1,Cơ sở ngành,6
-33,Công nghệ chế tạo màng mỏng,3,1,Kỹ thuật vật lý linh kiện,7
-34,Kỹ thuật phân tích vật liệu,3,1,Kỹ thuật vật lý linh kiện,7
-35,Cơ sở Công nghệ bán dẫn,3,1,Kỹ thuật vật lý linh kiện,7
-36,Từ học - linh kiện spintronic,3,1,Kỹ thuật vật lý linh kiện,8
-37,Công nghệ chế tạo cảm biến SERS,3,1,Kỹ thuật vật lý linh kiện,8
-38,Phương pháp nghiên cứu khoa học ,3,0,Kỹ thuật vật lý linh kiện,8
-39,Tư duy phản biện,3,0,Kỹ thuật vật lý linh kiện,8
-40,Đổi mới sáng tạo và khởi nghiệp ,3,0,Kỹ thuật vật lý linh kiện,8
-41,Trí tuệ nhân tạo ,3,0,Kỹ thuật vật lý linh kiện,8
-42,Tính chất cơ nhiệt vật rắn ,3,0,Kỹ thuật vật lý linh kiện,8
-43,Pháp luật đại cương,3,1,Kỹ thuật vật lý linh kiện,9
-44,Kỹ thuật vi chế tạo,3,1,Kỹ thuật vật lý linh kiện,9
-45,Vật lý bán dẫn ,3,0,Kỹ thuật vật lý linh kiện,9
-46,Khoa học vật liệu đại cương ,3,0,Kỹ thuật vật lý linh kiện,9
-47,Quang điện tử bán dẫn ,3,0,Kỹ thuật vật lý linh kiện,9
-48,Chủ nghĩa xã hội khoa học,4,1,Đại cương,10
-49,Tư tưởng Hồ Chí Minh,4,1,Đại cương,10
-50,Kỹ thuật siêu âm ,4,0,Kỹ thuật vật lý linh kiện,10
-51,Công nghệ chế tạo vật liệu ,4,0,Kỹ thuật vật lý linh kiện,10
-52,Vật lý tinh thể ,4,0,Kỹ thuật vật lý linh kiện,10
-53,Mô phỏng quang và vật lý plasma ,4,0,Kỹ thuật vật lý linh kiện,10
-54,Kỹ thuật nuôi tinh thể ,4,0,Kỹ thuật vật lý linh kiện,10
-55,Thực tập thực tế,4,1,Kỹ thuật vật lý linh kiện,10
-56,Tính chất quang vật rắn ,4,0,Kỹ thuật vật lý linh kiện,11
-57,Khai thác dữ liệu lớn ,4,0,Kỹ thuật vật lý linh kiện,11
-58,Công nghệ chiếu sáng và ứng dụng ,4,0,Kỹ thuật vật lý linh kiện,11
-59,Công nghệ đóng gói ,4,0,Kỹ thuật vật lý linh kiện,11
-60,Vẽ kỹ thuật ,4,0,Kỹ thuật vật lý linh kiện,11
-61,Lịch sử Đảng Cộng sản Việt Nam,4,1,Đại cương,11
-62,Hệ thống số,3,1,"Kỹ thuật điện tử, máy tính và robot thông minh",7
-63,Mô hình và mô phỏng,3,1,"Kỹ thuật điện tử, máy tính và robot thông minh",7
-64,Xử lý tín hiệu số,3,1,"Kỹ thuật điện tử, máy tính và robot thông minh",7
-65,Cấu trúc dữ liệu và giải thuật,3,1,"Kỹ thuật điện tử, máy tính và robot thông minh",8
-66,Vi điều khiển,3,1,"Kỹ thuật điện tử, máy tính và robot thông minh",8
-67,Phương pháp nghiên cứu khoa học ,3,0,"Kỹ thuật điện tử, máy tính và robot thông minh",8
-68,Tư duy phản biện ,3,0,"Kỹ thuật điện tử, máy tính và robot thông minh",8
-69,Đổi mới sáng tạo và khởi nghiệp ,3,0,"Kỹ thuật điện tử, máy tính và robot thông minh",8
-70,Trí tuệ nhân tạo ,3,0,"Kỹ thuật điện tử, máy tính và robot thông minh",8
-71,Phương pháp tính ,3,0,"Kỹ thuật điện tử, máy tính và robot thông minh",8
-72,Xử lý ảnh số ,3,0,"Kỹ thuật điện tử, máy tính và robot thông minh",8
-73,Pháp luật đại cương,3,1,Đại cương,9
-74,Thiết kế vi mạch,3,1,"Kỹ thuật điện tử, máy tính và robot thông minh",9
-75,Kỹ thuật thiết kế mạch in PCB ,3,0,"Kỹ thuật điện tử, máy tính và robot thông minh",9
-76,Thiết kế hệ thống cơ điện tử ,3,0,"Kỹ thuật điện tử, máy tính và robot thông minh",9
-77,Thiết kế vi mạch tương tự ,3,0,"Kỹ thuật điện tử, máy tính và robot thông minh",9
-78,Hệ điều hành ROS ,3,0,"Kỹ thuật điện tử, máy tính và robot thông minh",9
-79,Nguyên lý thiết kế cơ cấu máy ,3,0,"Kỹ thuật điện tử, máy tính và robot thông minh",9
-80,Hệ thống khí nén ,3,0,"Kỹ thuật điện tử, máy tính và robot thông minh",9
-81,Chủ nghĩa xã hội khoa học,4,1,Đại cương,10
-82,Tư tưởng Hồ Chí Minh,4,1,Đại cương,10
-83,Thực tập thực tế,4,1,"Kỹ thuật điện tử, máy tính và robot thông minh",10
-84,Lập trình trên thiết bị di động ,4,0,"Kỹ thuật điện tử, máy tính và robot thông minh",10
-85,Lập trình Java ,4,0,"Kỹ thuật điện tử, máy tính và robot thông minh",10
-86,Lập trình web ,4,0,"Kỹ thuật điện tử, máy tính và robot thông minh",10
-87,Logic mờ và mạng nơron ,4,0,"Kỹ thuật điện tử, máy tính và robot thông minh",10
-88,Cơ sở dữ liệu ,4,0,"Kỹ thuật điện tử, máy tính và robot thông minh",10
-89,Khai thác dữ liệu lớn ,4,0,"Kỹ thuật điện tử, máy tính và robot thông minh",10
-90,Mạng máy tính ,4,0,"Kỹ thuật điện tử, máy tính và robot thông minh",10
-91,Lập trình PLC ,4,0,"Kỹ thuật điện tử, máy tính và robot thông minh",10
-92,Điện tử y sinh ,4,0,"Kỹ thuật điện tử, máy tính và robot thông minh",10
-93,Công nghệ robot và ứng dụng ,4,0,"Kỹ thuật điện tử, máy tính và robot thông minh",10
-94,Chi tiết máy ,4,0,"Kỹ thuật điện tử, máy tính và robot thông minh",10
-95,Năng lượng tái tạo ,4,0,"Kỹ thuật điện tử, máy tính và robot thông minh",10
-96,Lịch sử Đảng Cộng sản Việt Nam,4,1,Đại cương,11
-97,Thiết kế hệ thống nhúng ,4,0,"Kỹ thuật điện tử, máy tính và robot thông minh",11
-98,Kỹ thuật điện ,4,0,"Kỹ thuật điện tử, máy tính và robot thông minh",11
-99,Vẽ kỹ thuật ,4,0,"Kỹ thuật điện tử, máy tính và robot thông minh",11
-100,Thiết kế để kiểm tra vi mạch ,4,0,"Kỹ thuật điện tử, máy tính và robot thông minh",11
-101,Lập trình shell và quản trị Linux cơ bản,4,0,"Kỹ thuật điện tử, máy tính và robot thông minh",11
-102,Thiết kế vật lý vi mạch bán dẫn ,4,0,"Kỹ thuật điện tử, máy tính và robot thông minh",11
-103,Điều khiển học ,4,0,"Kỹ thuật điện tử, máy tính và robot thông minh",11
-104,Phát triển ứng dụng IoT,4,0,"Kỹ thuật điện tử, máy tính và robot thông minh",11
-105,Thiết kế hệ thống trên chip (SoC),4,0,"Kỹ thuật điện tử, máy tính và robot thông minh",11
-106,Điện tử công suất,4,0,"Kỹ thuật điện tử, máy tính và robot thông minh",11
-107,Khóa luận tốt nghiệp,4,1,,12
+16,Vật lý chất rắn,2,1,Cơ sở ngành,1
+17,Xác suất thống kê,2,1,Đại cương,1
+18,Triết học Mác - Lênin,2,1,Đại cương,1
+19,Cơ lượng tử 1,2,1,Cơ sở ngành,1
+20,Khoa học trái đất ,2,0,Đại cương,1
+21,Môi trường đại cương ,2,0,Đại cương,1
+22,Giới thiệu về biến đổi khí hậu và phát triển bền vững,2,0,Đại cương,1
+23,Kinh tế chính trị Mác - Lênin,2,1,Đại cương,2
+24,Kinh tế đại cương,2,0,Đại cương,2
+25,Tâm lý đại cương ,2,0,Đại cương,2
+26,Phương pháp luận sáng tạo,2,0,Đại cương,2
+27,Lập trình hướng đối tượng,2,1,Cơ sở ngành,2
+28,Cơ sở linh kiện bán dẫn,2,1,Cơ sở ngành,2
+29,Lập trình python,2,1,Cơ sở ngành,2
+30,Phân tích mạch,2,1,Cơ sở ngành,3
+31,Cảm biến và kỹ thuật đo lường,2,1,Cơ sở ngành,3
+32,Máy học và ứng dụng,2,1,Cơ sở ngành,3
+33,Công nghệ chế tạo màng mỏng,3,1,Kỹ thuật vật lý linh kiện,1
+34,Kỹ thuật phân tích vật liệu,3,1,Kỹ thuật vật lý linh kiện,1
+35,Cơ sở Công nghệ bán dẫn,3,1,Kỹ thuật vật lý linh kiện,1
+36,Từ học - linh kiện spintronic,3,1,Kỹ thuật vật lý linh kiện,2
+37,Công nghệ chế tạo cảm biến SERS,3,1,Kỹ thuật vật lý linh kiện,2
+38,Phương pháp nghiên cứu khoa học ,3,0,Kỹ thuật vật lý linh kiện,2
+39,Tư duy phản biện,3,0,Kỹ thuật vật lý linh kiện,2
+40,Đổi mới sáng tạo và khởi nghiệp ,3,0,Kỹ thuật vật lý linh kiện,2
+41,Trí tuệ nhân tạo ,3,0,Kỹ thuật vật lý linh kiện,2
+42,Tính chất cơ nhiệt vật rắn ,3,0,Kỹ thuật vật lý linh kiện,2
+43,Pháp luật đại cương,3,1,Kỹ thuật vật lý linh kiện,3
+44,Kỹ thuật vi chế tạo,3,1,Kỹ thuật vật lý linh kiện,3
+45,Vật lý bán dẫn ,3,0,Kỹ thuật vật lý linh kiện,3
+46,Khoa học vật liệu đại cương ,3,0,Kỹ thuật vật lý linh kiện,3
+47,Quang điện tử bán dẫn ,3,0,Kỹ thuật vật lý linh kiện,3
+48,Chủ nghĩa xã hội khoa học,4,1,Đại cương,1
+49,Tư tưởng Hồ Chí Minh,4,1,Đại cương,1
+50,Kỹ thuật siêu âm ,4,0,Kỹ thuật vật lý linh kiện,1
+51,Công nghệ chế tạo vật liệu ,4,0,Kỹ thuật vật lý linh kiện,1
+52,Vật lý tinh thể ,4,0,Kỹ thuật vật lý linh kiện,1
+53,Mô phỏng quang và vật lý plasma ,4,0,Kỹ thuật vật lý linh kiện,1
+54,Kỹ thuật nuôi tinh thể ,4,0,Kỹ thuật vật lý linh kiện,1
+55,Thực tập thực tế,4,1,Kỹ thuật vật lý linh kiện,1
+56,Tính chất quang vật rắn ,4,0,Kỹ thuật vật lý linh kiện,2
+57,Khai thác dữ liệu lớn ,4,0,Kỹ thuật vật lý linh kiện,2
+58,Công nghệ chiếu sáng và ứng dụng ,4,0,Kỹ thuật vật lý linh kiện,2
+59,Công nghệ đóng gói ,4,0,Kỹ thuật vật lý linh kiện,2
+60,Vẽ kỹ thuật ,4,0,Kỹ thuật vật lý linh kiện,2
+61,Lịch sử Đảng Cộng sản Việt Nam,4,1,Đại cương,2
+"62,Hệ thống số,3,1,""Kỹ thuật điện tử, máy tính và robot thông minh"",1"
+"63,Mô hình và mô phỏng,3,1,""Kỹ thuật điện tử, máy tính và robot thông minh"",1"
+"64,Xử lý tín hiệu số,3,1,""Kỹ thuật điện tử, máy tính và robot thông minh"",1"
+"65,Cấu trúc dữ liệu và giải thuật,3,1,""Kỹ thuật điện tử, máy tính và robot thông minh"",2"
+"66,Vi điều khiển,3,1,""Kỹ thuật điện tử, máy tính và robot thông minh"",2"
+"67,Phương pháp nghiên cứu khoa học ,3,0,""Kỹ thuật điện tử, máy tính và robot thông minh"",2"
+"68,Tư duy phản biện ,3,0,""Kỹ thuật điện tử, máy tính và robot thông minh"",2"
+"69,Đổi mới sáng tạo và khởi nghiệp ,3,0,""Kỹ thuật điện tử, máy tính và robot thông minh"",2"
+"70,Trí tuệ nhân tạo ,3,0,""Kỹ thuật điện tử, máy tính và robot thông minh"",2"
+"71,Phương pháp tính ,3,0,""Kỹ thuật điện tử, máy tính và robot thông minh"",2"
+"72,Xử lý ảnh số ,3,0,""Kỹ thuật điện tử, máy tính và robot thông minh"",2"
+73,Pháp luật đại cương,3,1,Đại cương,3
+"74,Thiết kế vi mạch,3,1,""Kỹ thuật điện tử, máy tính và robot thông minh"",3"
+"75,Kỹ thuật thiết kế mạch in PCB ,3,0,""Kỹ thuật điện tử, máy tính và robot thông minh"",3"
+"76,Thiết kế hệ thống cơ điện tử ,3,0,""Kỹ thuật điện tử, máy tính và robot thông minh"",3"
+"77,Thiết kế vi mạch tương tự ,3,0,""Kỹ thuật điện tử, máy tính và robot thông minh"",3"
+"78,Hệ điều hành ROS ,3,0,""Kỹ thuật điện tử, máy tính và robot thông minh"",3"
+"79,Nguyên lý thiết kế cơ cấu máy ,3,0,""Kỹ thuật điện tử, máy tính và robot thông minh"",3"
+"80,Hệ thống khí nén ,3,0,""Kỹ thuật điện tử, máy tính và robot thông minh"",3"
+81,Chủ nghĩa xã hội khoa học,4,1,Đại cương,1
+82,Tư tưởng Hồ Chí Minh,4,1,Đại cương,1
+"83,Thực tập thực tế,4,1,""Kỹ thuật điện tử, máy tính và robot thông minh"",1"
+"84,Lập trình trên thiết bị di động ,4,0,""Kỹ thuật điện tử, máy tính và robot thông minh"",1"
+"85,Lập trình Java ,4,0,""Kỹ thuật điện tử, máy tính và robot thông minh"",1"
+"86,Lập trình web ,4,0,""Kỹ thuật điện tử, máy tính và robot thông minh"",1"
+"87,Logic mờ và mạng nơron ,4,0,""Kỹ thuật điện tử, máy tính và robot thông minh"",1"
+"88,Cơ sở dữ liệu ,4,0,""Kỹ thuật điện tử, máy tính và robot thông minh"",1"
+"89,Khai thác dữ liệu lớn ,4,0,""Kỹ thuật điện tử, máy tính và robot thông minh"",1"
+"90,Mạng máy tính ,4,0,""Kỹ thuật điện tử, máy tính và robot thông minh"",1"
+"91,Lập trình PLC ,4,0,""Kỹ thuật điện tử, máy tính và robot thông minh"",1"
+"92,Điện tử y sinh ,4,0,""Kỹ thuật điện tử, máy tính và robot thông minh"",1"
+"93,Công nghệ robot và ứng dụng ,4,0,""Kỹ thuật điện tử, máy tính và robot thông minh"",1"
+"94,Chi tiết máy ,4,0,""Kỹ thuật điện tử, máy tính và robot thông minh"",1"
+"95,Năng lượng tái tạo ,4,0,""Kỹ thuật điện tử, máy tính và robot thông minh"",1"
+96,Lịch sử Đảng Cộng sản Việt Nam,4,1,Đại cương,2
+"97,Thiết kế hệ thống nhúng ,4,0,""Kỹ thuật điện tử, máy tính và robot thông minh"",2"
+"98,Kỹ thuật điện ,4,0,""Kỹ thuật điện tử, máy tính và robot thông minh"",2"
+"99,Vẽ kỹ thuật ,4,0,""Kỹ thuật điện tử, máy tính và robot thông minh"",2"
+"100,Thiết kế để kiểm tra vi mạch ,4,0,""Kỹ thuật điện tử, máy tính và robot thông minh"",2"
+"101,Lập trình shell và quản trị Linux cơ bản,4,0,""Kỹ thuật điện tử, máy tính và robot thông minh"",2"
+"102,Thiết kế vật lý vi mạch bán dẫn ,4,0,""Kỹ thuật điện tử, máy tính và robot thông minh"",2"
+"103,Điều khiển học ,4,0,""Kỹ thuật điện tử, máy tính và robot thông minh"",2"
+"104,Phát triển ứng dụng IoT,4,0,""Kỹ thuật điện tử, máy tính và robot thông minh"",2"
+"105,Thiết kế hệ thống trên chip (SoC),4,0,""Kỹ thuật điện tử, máy tính và robot thông minh"",2"
+"106,Điện tử công suất,4,0,""Kỹ thuật điện tử, máy tính và robot thông minh"",2"
+107,Khóa luận tốt nghiệp,4,1,,3
