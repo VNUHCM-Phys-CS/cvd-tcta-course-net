@@ -1,11 +1,18 @@
 // load data
 async function loadNodeLinks(){
     // handle node
+    let maxTerm = 1;
     const nodes = await d3.csv("src/data/nodes.csv")
     .then(d=>{
         d.forEach(element => {
             ["id","YEAR","TERM","REQUIRE"].forEach(k=>element[k]= +element[k]);
-            element._step = element.YEAR+(element.TERM-1)/2;
+            maxTerm = Math.max(element.TERM, maxTerm);
+        });
+        // _step spaces terms evenly within a year by the real terms-per-year
+        // (was hardcoded /2 while the data has 3 terms/year, which made a
+        // term-3 course collide with the next year's term-1).
+        d.forEach(element => {
+            element._step = element.YEAR+(element.TERM-1)/maxTerm;
         });
         return d;
     });
@@ -28,5 +35,5 @@ async function loadNodeLinks(){
     })
     // Update 4/22: remove same level
     links = links.filter(d=>!d.isSameLevel);
-    return {nodes,links}
+    return {nodes,links,xstep:1/maxTerm}
 }

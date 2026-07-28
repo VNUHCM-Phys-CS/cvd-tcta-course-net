@@ -27,7 +27,7 @@ loadNodeLinks()
         const catall = _.uniq(allData.nodes.map(d=>d[colorKEY]));
         currentData = {nodes:[...graph.nodes],links:[...graph.links]};
         initFilter();
-        drawFunc.graph(currentData).setColorByCat(catall).setCustomCat(groupCat).initZoom().draw().initFilter(onChangedata).forceInit();
+        drawFunc.graph(currentData).setxstep(graph.xstep).setColorByCat(catall).setCustomCat(groupCat).initZoom().draw().initFilter(onChangedata).forceInit();
         getURL();
         function onChangedata({name,layer,cat}){
             currentData.nodes = allData.nodes;
@@ -131,7 +131,6 @@ function getURL(){
     const l={};
     filterG.forEach(d=>d.v.forEach((e,i)=>l[e.s]={y:d.y,i}));
     const q = urlParams.get('q');
-    debugger
     if (l[q] && l[q].y && l[q].i) {
         d3.select(`input#divfilter_input${l[q].y}_${l[q].i}`).dispatch("change");
     }else{

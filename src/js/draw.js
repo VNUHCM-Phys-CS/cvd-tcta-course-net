@@ -382,6 +382,10 @@ const draw = function ({ width, height, margin }) {
     store.customCatLevel = customlevel;
     return master;
   };
+  master.setxstep = (xstep) => {
+    store.xstep = xstep;
+    return master;
+  };
   master.drawLegend = (customcat) => {
     const { customCatLevel, countCat } = store;
     let legenG = d3.select(".legend .cat");
@@ -469,12 +473,13 @@ const draw = function ({ width, height, margin }) {
     store._links = [...links];
     // add virtual node/link
     let idvirtual = -1;
-    const xstep = 0.5;
+    const xstep = store.xstep;
     let vnodes = {}; // store id vs layer avoid repeat node
     links.forEach((l) => {
       let lastitem = l.source;
       let child = [];
-      for (let i = l.source._step + xstep; i < l.target._step; i += xstep) {
+      for (let s = 1; s < Math.round((l.target._step - l.source._step) / xstep); s++) {
+        const i = Math.round((l.source._step + s * xstep) * 1000) / 1000;
         let _l = vnodes[`${lastitem.id}-${lastitem._step}`];
         if (!_l) {
           const maink = Math.floor(i);
@@ -482,7 +487,7 @@ const draw = function ({ width, height, margin }) {
             id: idvirtual,
             _step: i,
             [mainxKEY]: maink,
-            [subxKEY]: (i - maink) / xstep + 1,
+            [subxKEY]: Math.round((i - maink) / xstep + 1),
             [colorKEY]: l.target[colorKEY],
             isVirtual: true
           };
@@ -527,9 +532,9 @@ const draw = function ({ width, height, margin }) {
     const {
       xScaleBand,
       xScaleinnerBand,
-      widthInner,
       groupByLayer,
       yHeightinner,
+      ymingap,
       cat,
     } = store;
     const yorder = d3.scaleOrdinal().domain(cat).range(d3.range(0, cat.length));
@@ -559,7 +564,7 @@ const draw = function ({ width, height, margin }) {
         "collide",
         d3
           .forceCollide()
-          .radius((d) => widthInner + 1)
+          .radius((d) => yHeightinner / 2 + ymingap)
           .iterations(2)
       )
       .on("tick", master.updateNode)
@@ -583,10 +588,46 @@ const draw = function ({ width, height, margin }) {
       gap,
     } = store;
     const groupByLayer = d3.groups(_nodes, (d) => d._step);
+
+    // ---- reduce link crossings: barycenter ordering within each column ----
+    // Order nodes in each column by the average order of the nodes they link
+    // to in neighbouring columns, sweeping both directions a few times.
+    const columns = groupByLayer
+      .map(([, g]) => g)
+      .sort((a, b) => a[0]._step - b[0]._step);
+    columns.forEach((g) => {
+      g.sort((a, b) => a.y - b.y);
+      g.forEach((d, i) => (d._ord = i));
+    });
+    const bary = (node, key, endpoint) => {
+      const ls = node[key];
+      if (!ls.length) return node._ord;
+      return d3.mean(ls, (l) => l[endpoint]._ord);
+    };
+    for (let sweep = 0; sweep < 6; sweep++) {
+      for (let c = 1; c < columns.length; c++) {
+        const g = columns[c];
+        g.sort(
+          (a, b) =>
+            bary(a, "_linkspre", "source") - bary(b, "_linkspre", "source")
+        );
+        g.forEach((d, i) => (d._ord = i));
+      }
+      for (let c = columns.length - 2; c >= 0; c--) {
+        const g = columns[c];
+        g.sort(
+          (a, b) =>
+            bary(a, "_linksnext", "target") - bary(b, "_linksnext", "target")
+        );
+        g.forEach((d, i) => (d._ord = i));
+      }
+    }
+    // ----------------------------------------------------------------------
+
     const maxHL = [];
     // arrange y pos
     groupByLayer.forEach(([k, g]) => {
-      g.sort((a, b) => a.y - b.y);
+      g.sort((a, b) => a._ord - b._ord);
       const maxmem = g.length;
       let yvisual = yHeightinner/5;
       let maxH = 0;//yHeightinner * maxmem + ymingap * (maxmem - 1);
