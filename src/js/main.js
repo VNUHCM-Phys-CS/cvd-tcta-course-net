@@ -9,7 +9,7 @@ const strokeKEY = "REQUIRE";
 const groupCat = [
     {key:"Đại cương",value:[]},
     {key:"Cơ sở ngành",value:[]},
-    {key:"Chuyên ngành",value:[]},
+    {key:"Chuyên ngành",value:["Kỹ thuật vật lý linh kiện","Kỹ thuật điện tử, máy tính"]},
     {key:"Tốt nghiệp",value:[]},
 ]
 
